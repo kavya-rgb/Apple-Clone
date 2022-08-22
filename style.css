@@ -20,7 +20,6 @@ nav {
     background: rgba(0, 0, 0, 0.92);
     font-size: 17px;
     user-select: none;
-    outline: rgb(66, 153, 225) solid 1px !important
 }
 
 .inner-nav {
@@ -33,7 +32,6 @@ nav {
     z-index: 2;
     padding-left: max(22px, env(safe-area-inset-left));
     padding-right: max(22px, env(safe-area-inset-right));
-    outline: rgb(66, 153, 225) solid 1px !important
 }
 
 .gn-list {
@@ -48,7 +46,6 @@ nav {
     user-select: none;
     padding: 0px;
     margin-left: 1.17647em;
-    outline: rgb(66, 153, 225) solid 1px !important
 }
 
 .nav-logo {
@@ -75,7 +72,6 @@ nav {
     background-image: url("../../en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__b5er5ngrzxqq_large.svg");
     background-position: center center;
     width: 14px;
-    outline: rgb(66, 153, 225) solid 1px !important
 }
 
 .nav-logo:hover {
@@ -109,7 +105,6 @@ nav {
     background-size: cover;
     width: 2.5em;
     max-width: 51px;
-    outline: rgb(66, 153, 225) solid 1px !important
 }
 
 .ac-gn-store:hover {
@@ -143,7 +138,6 @@ nav {
     background-size: cover;
     width: 1.91667em;
     max-width: 39.1px;
-    outline: rgb(66, 153, 225) solid 1px !important;
 }
 
 .ac-gn-mac:hover{
