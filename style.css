@@ -1,146 +1,179 @@
 nav {
-    font-weight: normal;
-    text-size-adjust: 100%;
-    font-synthesis: none;
-    -webkit-font-smoothing: antialiased;
-    direction: ltr;
-    text-align: left;
-    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    left: 0px;
-    z-index: 9999;
-    display: block;
-    margin: 0px;
-    width: 100%;
-    min-width: 1024px;
-    height: 48px;
-    max-height: 44px;
-    background: rgba(0, 0, 0, 0.92);
-    font-size: 17px;
-    user-select: none;
+  font-weight: normal;
+  text-size-adjust: 100%;
+  font-synthesis: none;
+  -webkit-font-smoothing: antialiased;
+  direction: ltr;
+  text-align: left;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  z-index: 9999;
+  display: block;
+  margin: 0px;
+  width: 100%;
+  min-width: 1024px;
+  height: 48px;
+  max-height: 44px;
+  background: rgba(0, 0, 0, 0.92);
+  font-size: 17px;
+  user-select: none;
 }
 
 .inner-nav {
-    display: block;
-    margin: 0px auto;
-    max-width: 980px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    position: relative;
-    z-index: 2;
-    padding-left: max(22px, env(safe-area-inset-left));
-    padding-right: max(22px, env(safe-area-inset-right));
+  display: block;
+  margin: 0px auto;
+  max-width: 980px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  position: relative;
+  z-index: 2;
+  padding-left: max(22px, env(safe-area-inset-left));
+  padding-right: max(22px, env(safe-area-inset-right));
 }
 
 .gn-list {
-    list-style: none;
-    cursor: default;
-    margin: 0px -8px;
-    width: auto;
-    height: 44px;
-    display: flex;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
-    user-select: none;
-    padding: 0px;
-    margin-left: 1.17647em;
+  list-style: none;
+  cursor: default;
+  margin: 0px -8px;
+  width: auto;
+  height: 44px;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  user-select: none;
+  padding: 0px;
+  margin-left: 1.17647em;
 }
 
 .nav-logo {
-    font-size: 12px;
-    line-height: 3.66667;
-    font-weight: 400;
-    letter-spacing: -0.01em;
-    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: rgb(245, 245, 247);
-    position: relative;
-    z-index: 1;
-    display: inline-block;
-    padding: 0px 8px;
-    height: 44px;
-    opacity: 0.8;
-    background: no-repeat;
-    text-decoration: none;
-    white-space: nowrap;
-    transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    outline-offset: -7px;
-    background-size: 14px 44px;
-    background-repeat: no-repeat;
-    background-image: url("../../en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__b5er5ngrzxqq_large.svg");
-    background-position: center center;
-    width: 14px;
+  font-size: 12px;
+  line-height: 3.66667;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+  color: rgb(245, 245, 247);
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  padding: 0px 8px;
+  height: 44px;
+  opacity: 0.8;
+  background: no-repeat;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  outline-offset: -7px;
+  background-size: 14px 44px;
+  background-repeat: no-repeat;
+  background-image: url("../../en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__b5er5ngrzxqq_large.svg");
+  background-position: center center;
+  width: 14px;
 }
 
 .nav-logo:hover {
-    opacity: 1;
-    text-decoration: underline
+  opacity: 1;
+  text-decoration: underline;
 }
 
 .ac-gn-store {
-    font-size: 12px;
-    line-height: 3.66667;
-    font-weight: 400;
-    letter-spacing: -0.01em;
-    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: rgb(245, 245, 247);
-    position: relative;
-    z-index: 1;
-    display: inline-block;
-    padding: 0px 8px;
-    height: 44px;
-    opacity: 0.8;
-    background: no-repeat;
-    text-decoration: none;
-    white-space: nowrap;
-    transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    outline-offset: -7px;
-    background-repeat: no-repeat;
-    background-image: url("../../en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_links_store_image__c7jy08initqq_large.svg");
-    background-position: center center;
-    background-origin: content-box;
-    background-size: cover;
-    width: 2.5em;
-    max-width: 51px;
+  font-size: 12px;
+  line-height: 3.66667;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+  color: rgb(245, 245, 247);
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  padding: 0px 8px;
+  height: 44px;
+  opacity: 0.8;
+  background: no-repeat;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  outline-offset: -7px;
+  background-repeat: no-repeat;
+  background-image: url("../../en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_links_store_image__c7jy08initqq_large.svg");
+  background-position: center center;
+  background-origin: content-box;
+  background-size: cover;
+  width: 2.5em;
+  max-width: 51px;
 }
 
 .ac-gn-store:hover {
-    opacity: 1;
-    text-decoration: underline;
+  opacity: 1;
+  text-decoration: underline;
 }
 
 .ac-gn-mac {
-    font-size: 12px;
-    line-height: 3.66667;
-    font-weight: 400;
-    letter-spacing: -0.01em;
-    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: rgb(245, 245, 247);
-    position: relative;
-    z-index: 1;
-    display: inline-block;
-    padding: 0px 8px;
-    height: 44px;
-    opacity: 0.8;
-    background: no-repeat;
-    text-decoration: none;
-    white-space: nowrap;
-    transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    outline-offset: -7px;
-    background-repeat: no-repeat;
-    background-image: url("../../en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_links_mac_image__dazlko3t9a6a_large.svg");
-    background-position: center center;
-    background-origin: content-box;
-    background-size: cover;
-    width: 1.91667em;
-    max-width: 39.1px;
+  font-size: 12px;
+  line-height: 3.66667;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+  color: rgb(245, 245, 247);
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  padding: 0px 8px;
+  height: 44px;
+  opacity: 0.8;
+  background: no-repeat;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  outline-offset: -7px;
+  background-repeat: no-repeat;
+  background-image: url("../../en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_links_mac_image__dazlko3t9a6a_large.svg");
+  background-position: center center;
+  background-origin: content-box;
+  background-size: cover;
+  width: 1.91667em;
+  max-width: 39.1px;
 }
 
-.ac-gn-mac:hover{
-    opacity: 1;
-text-decoration: underline;
+.ac-gn-mac:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+.ac-gn-iPad {
+  font-size: 12px;
+  line-height: 3.66667;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+  color: rgb(245, 245, 247);
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  padding: 0px 8px;
+  height: 44px;
+  opacity: 0.8;
+  background: no-repeat;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  outline-offset: -7px;
+  background-repeat: no-repeat;
+  background-image: url("../../en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_links_ipad_image__fw9qyj9lloi2_large.svg");
+  background-position: center center;
+  background-origin: content-box;
+  background-size: cover;
+  width: 2em;
+  max-width: 40.8px;
+  outline: rgb(66, 153, 225) solid 1px !important;
 }
